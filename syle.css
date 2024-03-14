@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui;
+}
+
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+span, a, label {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.qqq {
+  width: 10%;
+  position: absolute;
+  right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  height: 35px;
+  background-color: #1F2936;
+  position: relative;
+}
+
+.i {
+  font-size: 21px;
+}
+
+.ii {
+  font-size: 21px;
+  padding: 3px;
+}
+
+.ii:hover {
+  background-color: red;
+  color: white;
+}
+
+.spn1 {
+  width: 30%;
+  padding: 3px;
+  color: #556471;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spn1:hover {
+  background-color: #17212B;
+  color: white;
+}
+
+.spn21 {
+  width: 30%;
+  padding: 3px;
+  color: #556471;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spn21:hover {
+  background-color: red;
+  color: white;
+}
+
+.part1 {
+  padding: 10px;
+  width: 100%;
+  min-height: 94.5dvh;
+  background-color: #181818;
+}
+
+.i1 {
+  color: #768C9E;
+  padding: 5px;
+  font-size: 30px;
+  width: 100%;
+}
+
+.i11 {
+  color: #768C9E;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.p {
+  color: #768C9E;
+}
+
+.www {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.p:hover {
+  color: white;
+}
+
+.i1:hover {
+  color: white;
+}
+
+.i11:hover {
+  color: white;
+}
+
+.p {
+  width: 100%;
+  text-align: center;
+}
+
+.box2 {
+  width: 30%;
+  min-height: 94.5dvh;
+  background-color: #17212B;
+}
+
+.box3 {
+  width: 62%;
+  border: 2px solid black;
+  min-height: 94.5dvh;
+  position: relative;
+  background-color: #0E1621;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box1 {
+  width: 8%;
+}
+
+.form {
+  border: transparent;
+  padding: 20px;
+}
+
+.bmw {
+  width: 100%;
+}
+
+.in {
+  padding: 10px 10px;
+  border: transparent;
+  font-size: 20px;
+  border-radius: 15px;
+  margin: auto;
+  background-color: #242F3D;
+}
+
+.pic {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.yyy {
+  width: 50%;
+  text-align: center;
+}
+
+.yyyy {
+  width: 80%;
+  text-align: center;
+}
+
+.ttt {
+  width: 20%;
+}
+
+.tttt {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt2 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: purple;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt3 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt4 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: skyblue;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt5 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: sienna;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt6 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt7 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt8 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: grey;
+  color: gold;
+  border: 2px solid gold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tttt9 {
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: pink;
+  color: gold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.eee {
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eeee {
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  background-color: #2B5278;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eeee:hover {
+  background-color: #242F3D;
+}
+
+.eee:hover {
+  background-color: #242F3D;
+}
+
+.h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.saytlar {
+  height: 559px;
+  width: 100%;
+  overflow: hidden;
+  overflow: auto;
+}
+
+/* to'liq scrollbar */
+.saytlar::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* scrollbar yo'li */
+.saytlar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+/* scrollbar ko'rsatkichi */
+.saytlar::-webkit-scrollbar-thumb {
+  background-color: #242F3D;
+  border-radius: 30px;
+}
+
+.hhh {
+  width: 50%;
+}
+
+.h12 {
+  color: white;
+  font-size: 20px;
+}
+
+.p1 {
+  color: #628499;
+}
+
+.jjj {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spnm {
+  width: 33%;
+}
+
+.f {
+  font-size: 20px;
+}
+
+.f {
+  color: #636E79;
+}
+
+.f:hover {
+  color: white;
+}
+
+.ooo {
+  padding: 10px;
+  border-bottom: 2px solid #242F3D;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.i2 {
+  color: #636E79;
+  font-size: 30px;
+}
+
+.bt {
+  width: 43%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spon {
+  width: 20%;
+}
+
+.bmww {
+  width: 70%;
+}
+
+.vc {
+  width: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otabek {
+  background-color: #242F3D;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=syle.css.map */
